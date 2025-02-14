@@ -9,7 +9,6 @@
 		<h1>Movie Search</h1>
 		<input type="text" id="search" placeholder="Enter movie title..." />
 		<button id="searchBtn">Search</button>
-		<div id="results"></div>
 
 		<!-- Sorting Dropdown -->
 		<label for="sort">Sort by:</label>
@@ -18,6 +17,9 @@
 			<option value="year">Year (Newest First)</option>
 			<option value="rating">IMDB Rating (Highest First)</option>
 		</select>
+
+		<p id="loading" class="hidden">🔄 Loading...</p>
+		<div id="results"></div>
 
 		<script src="app.js"></script>
 	</body>
