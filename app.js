@@ -1,4 +1,4 @@
-let moviesData = []; // Store fetched movies for sorting
+let moviesData = []; // array to Store fetched movies for sorting
 
 document.getElementById('searchBtn').addEventListener('click', searchMovies);
 document
