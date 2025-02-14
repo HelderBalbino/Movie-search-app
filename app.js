@@ -15,7 +15,7 @@ function searchMovies() {
 	resultsDiv.innerHTML = '';
 	loadingText.classList.remove('hidden');
 
-	let apiUrl = `http://www.omdbapi.com/?s=${query}&apikey=cfe0c5c4`;
+	let apiUrl = `https://www.omdbapi.com/?s=${query}&apikey=cfe0c5c4`;
 
 	fetch(apiUrl)
 		.then((response) => response.json())
