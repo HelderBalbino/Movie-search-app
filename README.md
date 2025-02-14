@@ -7,9 +7,9 @@ built with **modern JavaScript and CSS**.
 
 ## 🚀 Live Demo
 
-## [👉 Click Here to See the App in Action](YOUR_LIVE_DEMO_LINK)
+## [👉 Click Here to See the App in Action](https://helderbalbino.github.io/Movie-search-app/)
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ![Movie Search Screenshot](https://raw.githubusercontent.com/HelderBalbino/Movie-search-app/refs/heads/main/images/LordOfTheRings.png)
 
