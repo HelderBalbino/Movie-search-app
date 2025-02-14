@@ -40,9 +40,7 @@ function searchMovies() {
 function fetchMovieDetails() {
 	let promises = moviesData.map(
 		(movie) =>
-			fetch(
-				`https://www.omdbapi.com/?i=${movie.imdbID}&apikey=YOUR_API_KEY`,
-			)
+			fetch(`https://www.omdbapi.com/?i=${movie.imdbID}&apikey=cfe0c5c4`)
 				.then((response) => response.json())
 				.then(
 					(details) =>
