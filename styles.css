@@ -1,0 +1,12 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+.movie-card {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+.hidden {
+	display: none;
+}
