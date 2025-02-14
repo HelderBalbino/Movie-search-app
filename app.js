@@ -4,7 +4,7 @@ function searchMovies() {
 	let query = document.getElementById('search').value;
 	if (!query) return;
 
-	let apiUrl = `https://www.omdbapi.com/?s=${query}&apikey=cfe0c5c4`;
+	let apiUrl = ``;
 
 	fetch(apiUrl)
 		.then((response) => response.json())
