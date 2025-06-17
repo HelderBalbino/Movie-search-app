@@ -7,20 +7,54 @@
 		<title>Movie search app</title>
 	</head>
 	<body>
-		<h1>Movie Search</h1>
-		<input type="text" id="search" placeholder="Enter movie title..." />
-		<button id="searchBtn">Search</button>
+		<!-- Hero Section -->
+		<section class="hero-section">
+			<div class="hero-background"></div>
+			<div class="hero-overlay"></div>
+			<div class="hero-content">
+				<h1 class="hero-title">🎬 CineSearch</h1>
+				<p class="hero-subtitle">
+					Discover Amazing Movies From Around The World
+				</p>
+				<div class="hero-features">
+					<span class="feature-badge">✨ Real-time Search</span>
+					<span class="feature-badge">⭐ IMDB Ratings</span>
+					<span class="feature-badge">🎯 Smart Sorting</span>
+					<span class="feature-badge">🔍 Auto-complete</span>
+				</div>
 
-		<!-- Sorting Dropdown -->
-		<label for="sort">Sort by:</label>
-		<select id="sort">
-			<option value="title">Title (A-Z)</option>
-			<option value="year">Year (Newest First)</option>
-			<option value="rating">IMDB Rating (Highest First)</option>
-		</select>
+				<!-- Search in Hero -->
+				<div class="hero-search-container">
+					<div class="search-and-sort-wrapper">
+						<div class="search-wrapper">
+							<input
+								type="text"
+								id="search"
+								placeholder="Search for any movie..."
+							/>
+							<button id="searchBtn">
+								<span>🔍</span>
+								Search
+							</button>
+						</div>
+						<div class="sort-container">
+							<label for="sort">Sort by:</label>
+							<select id="sort">
+								<option value="title">Title (A-Z)</option>
+								<option value="year">Year (Newest)</option>
+								<option value="rating">Rating (Highest)</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		<p id="loading" class="hidden">🔄 Loading...</p>
-		<div id="results"></div>
+		<!-- Main Content -->
+		<main class="main-content">
+			<p id="loading" class="hidden">🔄 Loading...</p>
+			<div id="results"></div>
+		</main>
 
 		<script src="app.js"></script>
 	</body>
